@@ -1,0 +1,101 @@
+CS:491, HomeWork#3, Part-A
+Submitted by :Kuttabadkar Yogeeta Monica
+netted: ykutta2,	UIN: 661868770
+___________________________________________________________________________________________
+
+1) SEARCH API
+
+Search Term: “Trump”
+Reason: Since the elections have Donald Trump making a lot of headlines, hence we choose this as the most common search term appearing 150 times in the streaming_output_full.txt file
+
+Some Examples Below:
+
+Charlie Sykes tries 2 teach the @realDonaldTrump how 2 b a presidential candidate. It doesn\'t go well
+
+In 2005 job went to Mexico, June15, 2015 I saw hope in Donald Trump I\'m just a poor girl that has compassion for others and wants to Make America Great Again
+
+I do naughty things to computers, drones, & IOT devices; I can barely read #Trump2016 #MAGA #MakeAmericaGreatAgain
+
+RT @JohnKasich: Want to stop Donald Trump? @RepCharlieDent gives you something to think about.\\nhttps:\\/\\/t.co\\/NFYAuoxb6d
+
+RT @MJayRosenberg: The Nader people elected Bush. The Dems who say they won\'t vote for Clinton if she is the nominee would elect Trump.
+
+The Nader people elected Bush. The Dems who say they won\'t vote for Clinton if she is the nominee would elect Trump.
+
+@HillaryClinton @ChuckGrassley You stole from my act and lost 2 supporters, #NeverClinton #BernieOrBust is my moto or I\'ll #trump b4 you
+
+RT @mitchellvii: America wants Trump because we\'re sick of being smarter than all the people who think they\'re smarter than us.
+
+RT @Women4Trump: LA convention delegation held secret delegate meeting w\\/ other candidate reps--did not include Trump reps\\ud83d\\ude21\\nhttps:\\/\\/t.co\\/eu\\u2026
+
+On the #TrumpTrain toward the White House! Sick and tired of #islam. *Tweets may not meet government regulations.
+
+
+
+2) Computer Frequency:
+
+The 30 most common terms and their frequencies are shown below:
+
+rt 0.05425514582088742
+- 0.0064085157225873025
+get 0.00591973062510183
+like 0.005213707706511704
+love 0.005050779340683213
+#bestfanarmy 0.004073209145712268
+i'm 0.003910280779883778
+#iheartawards 0.003910280779883778
+&amp; 0.0038016618693314506
+pearl 0.0031499484060174875
+one 0.0027697822190843424
+don't 0.002715472763808179
+got 0.002552544397979688
+happy 0.002552544397979688
+u 0.002443925487427361
+people 0.0023896160321511977
+new 0.0023896160321511977
+want 0.002335306576875034
+see 0.00228099712159887
+win 0.002226687666322707
+it's 0.002172378211046543
+time 0.0021180687557703797
+necklace, 0.002063759300494216
+day 0.002063759300494216
+weather 0.0020094498452180526
+know 0.0019008309346657253
+lets 0.0019008309346657253
+much 0.0018465214793895617
+#5sosfam 0.0018465214793895617
+going 0.0018465214793895617
+
+Note: Some noise is present in the most frequent terms like #,&amp.The below gives us the 30 most common sensible wordsand their frequencies
+
+get 0.00591973062510183
+like 0.005213707706511704
+love 0.005050779340683213
+i'm 0.003910280779883778
+pearl 0.0031499484060174875
+one 0.0027697822190843424
+don't 0.002715472763808179
+got 0.002552544397979688
+happy 0.002552544397979688
+u 0.002443925487427361
+people 0.0023896160321511977
+new 0.0023896160321511977
+want 0.002335306576875034
+see 0.00228099712159887
+win 0.002226687666322707
+it's 0.002172378211046543
+time 0.0021180687557703797
+necklace, 0.002063759300494216
+day 0.002063759300494216
+weather 0.0020094498452180526
+know 0.0019008309346657253
+lets 0.0019008309346657253
+much 0.0018465214793895617
+going 0.0018465214793895617
+still 0.001683593113561071
+fam 0.001683593113561071
+take 0.001683593113561071
+go 0.001683593113561071
+birthday 0.0016292836582849073
+need 0.0015749742030087437

@@ -1,0 +1,96 @@
+CS:491, HomeWork#3, Part-B
+Submitted by :Kuttabadkar Yogeeta Monica
+netted: ykutta2,	UIN: 661868770
+___________________________________________________________________________________________
+
+Considerations:
+
+a) The actor with twitter user name “abqjoker” is not considered for any of the below problems. This account is closed and as per the comment on piazza it is removed from the user_names.txt file
+___________________________________________________________________________________________
+
+1) Tweet Sentiment Score:
+The top ten happiest tweets in descending order are:
+
+18.0 : I'd like to wish a beautiful happy birthday to my wife @ladygaga a happy birthday!!!! I hope all you're wishes come true, love u always 💕💕💕
+12.0 : we were productive today, or at least that's what we want to believe. LOL love u both and thanks 4 the lovely day @pavipavia @issypeasy ❤️🤗
+11.0 : Sometimes you want fun and exciting &amp; other times u want calm &amp; quiet. A smartPHONE network that understands is what u need. #YouAreWelcome
+11.0 : @Zoella  HAPPY BIRTHDAY you've made my life way better since I've been watching you . Happy Birthday.        I Love You so much 💜💙❤️🎂🍰🛍🎊🎁🎈🎉🎀
+11.0 : RT @iamsacross: I promise to love you,
+care for you,
+cherish you,
+be faithful to you,
+
+always. https://t.co/1Fg0Ww0Pv4
+10.0 : Help me win this awesome Gamdias Package from GameVox and Gamdias! https://t.co/jwdIpo4Ygn
+10.0 : RT @94sclassicharry: I want to win #AndreasHarryHC ! ♡ @94skinnyhes thank you so much for doing it love  💌💞 https://t.co/qBTduyt7UG
+9.0 : Win a coupon worth up to $50! Play the TOM Sakura Lucky Game! https://t.co/4UYnNaM6m9 #tokyootakumode #sakura via @tokyootakumode
+9.0 : RT @AnkurloveDP: @sriramForU @deepikapadukone ya Deepika deserves this award more..:) Its OK hope she will win next time :)
+9.0 : @EtheringtonBros Thanks buddy, she was really good fun to do!
+
+
+The top ten unhappiest tweets in descending order are:
+
+-14.0 : If you gone fuck, fuck! But if you fucking somebody you can't call when u fucked up you a fucking fool 💯
+-10.0 : RT @claairegray: you wanna be fake with me ? then gtfo , I don't got time for fake ass people
+-9.0 : RT @thelipstickgawd: 21.) I hate when niggas wear True Religion jeans with everything. Them hoes ugly asf.
+-9.0 : RT @Slut4Dick: Niggas have more ass than females nowadays. And yes, these are pictures of 2 different dudes. Who would smash??? https://t.c…
+-9.0 : If you're a dumb leftie cunt and other dumb leftie cunts like you? You still haven't learned anything.
+-8.0 : But foreal tho I love the fuck out of my parents. I would dead ass be nothing without them.
+-8.0 : i want to fuck a fat kangaroo bitch
+-8.0 : I'll fuck around &amp; let him fuck &amp; beat on me for the 1.8  https://t.co/KW7jNWOD60
+-8.0 : RT @HustlemanOmb__: Stop the fucking madness https://t.co/0IEAY4ChYg
+-7.0 : If she was someone else or the old Sulli, you'd just say she's weird but adorable. But she is the now Sulli, always a bitch just breathing.
+
+
+2)Happiest Breaking Bad Actor:
+
+The formula used to calculate the average sentiment score for each actor is :
+
+Average Sentiment score for each actor = Sum of Sentiment Score of each tweet for the actor\ Total Number of tweets of the actor
+
+The scores for each actor in descending order are:
+
+1.79 : mrbobodenkirk
+1.7878787878787878 : Krystenritter
+1.696969696969697 : quiethandfilms
+1.4742268041237114 : RjMitte
+1.4086021505376345 : aaronpaul_8
+1.3711340206185567 : DanielMoncada80
+1.35 : betsy_brandt
+1.2424242424242424 : CharlesEbaker
+1.21 : deanjnorris
+1.03 : BryanCranston
+0.9484536082474226 : LuisMoncada77
+0.15625 : mattjonesisdead
+
+
+3) Happiest State Sentiment Scores:
+
+a) The formula used to calculate the average sentiment score for each state is :
+
+		Average Sentiment score for each state = Sum of Sentiment Score of each tweet for the state\ Total Number of tweets of the state
+
+b) 51 states of the US are considered, along with 5 terrorises (https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States) taken from the wikipedia page. The dictionary can be found in the python file as  “stateabbr_dict”
+c) Out of the 3 available options for choosing the location of each tweet, the one more appropriate founded is User.Location. This is because this attribute returns the most filled locations, as in not null values. The “Places” attribute is null in a lot of cases and hence information retrieved is very less. Similarly the Co-ordinates attribute is null in most tweets retrieved , as well as this returns coordinates which is harder to map to the state without the use of geocoded dictionaries.Thus, the most feasible one is Location which is chosen for this problem.
+
+The 5 happiest states with their average sentiment scores, in descending order, are:
+
+4.0 : CT
+3.0 : ID
+2.6666666666666665 : IA
+2.6666666666666665 : SC
+2.6666666666666665 : ME
+
+The 5 unhappiest states with their average sentiment scores,in descending order, are:
+
+-1.0 : WY
+-1.0 : AZ
+-0.6666666666666666 : IL
+-0.5 : KY
+-0.4 : LA
+
+Implementation Details:
+
+The user.location attribute value is matched with the abbreviations of the state as well as its full form and then resolved to only abbreviation for best results.
+
+
